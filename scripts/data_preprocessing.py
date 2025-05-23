@@ -4,7 +4,7 @@ def preprocess_sales_data():
     """
     Loads sales data, preprocesses it, and saves daily sales data.
     """
-    input_file_path = 'sales_forecasting_retail/data/shopping_trends.csv'
+    input_file_path = 'data/shopping_trends.csv'
     output_file_path = 'sales_forecasting_retail/data/daily_sales.csv'
 
     try:
